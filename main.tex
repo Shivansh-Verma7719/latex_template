@@ -1,0 +1,41 @@
+\documentclass[11pt]{article}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\renewcommand{\baselinestretch}{1.5} 
+\usepackage{cancel}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage[margin = 1 in]{geometry}
+\usepackage{url}
+\usepackage{hyperref}
+
+\newcommand{\question}[1]{\section*{Question #1} \input{Question#1.tex}}
+
+\def\Name{Shivansh Verma}  % Your name
+\def\EmailAddress{\text{shivansh.verma\_ug2023@ashoka.edu.in}}
+\def\Assignment{Enter Assignment Number} % Number of Homework
+\def\Session{Enter Current Session} % Semester and Year of Course
+
+
+
+\title{Course Code here -- \Session  -- Assignment \Assignment}
+\author{\Name, \EmailAddress}
+\pagestyle{myheadings}
+
+
+
+\newenvironment{qparts}{\begin{enumerate}[{(}a{)}]}{\end{enumerate}}
+\def\endproofmark{$\Box$}
+\newenvironment{proof}{\par{\bf Proof}:}{\endproofmark\smallskip}
+
+
+
+
+
+\begin{document}
+\maketitle
+
+\question{1} 
+
+\end{document}
